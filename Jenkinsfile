@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/AsadUkh/edd-poc-service.git', branch: 'master'])
+        git([url: 'https://github.com/AsadUkh/db-init-poc-service.git', branch: 'master'])
       }
     }
     stage('Building Docker image') {
